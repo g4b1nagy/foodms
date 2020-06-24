@@ -10,10 +10,7 @@ Food management system
 * source venv/bin/activate
 * pip install -r requirements.txt
 * ./manage.py migrate
-* ./manage.py loaddata measure.json
-* ./manage.py loaddata nutrient.json
-* ./manage.py loaddata food.json
+* ./manage.py loaddata measure.json nutrient.json food.json
 * ./manage.py createsuperuser
 * ./manage.py runserver
-* http://localhost:8000/
 * http://localhost:8000/admin/foods/food/1/change/
