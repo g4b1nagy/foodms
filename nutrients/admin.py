@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Measure, Nutrient
+
+
+admin.site.register(Measure)
+admin.site.register(Nutrient)
