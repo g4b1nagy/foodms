@@ -1,0 +1,1 @@
+[{"model": "nutrients.measure", "pk": 1, "fields": {"created_on": "2020-06-24T07:38:48.701Z", "updated_on": "2020-06-24T07:38:48.701Z", "unit": "kilocalorie", "symbol": "kcal"}}, {"model": "nutrients.measure", "pk": 2, "fields": {"created_on": "2020-06-24T07:39:01.141Z", "updated_on": "2020-06-24T07:39:01.141Z", "unit": "gram", "symbol": "g"}}]
