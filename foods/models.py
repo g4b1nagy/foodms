@@ -21,7 +21,7 @@ class FoodNutrient(models.Model):
     # models.CASCADE: Django also deletes the object containing the ForeignKey
     food = models.ForeignKey(Food, on_delete=models.CASCADE)
     nutrient = models.ForeignKey(Nutrient, on_delete=models.CASCADE)
-    amount = models.IntegerField(default=0)
+    amount = models.FloatField(default=0)
 
     class Meta:
         constraints = [
