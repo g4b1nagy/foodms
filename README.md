@@ -2,6 +2,8 @@
 
 Food management system
 
+![foodms screenshot](https://raw.github.com/g4b1nagy/foodms/master/foodms.png)
+
 * git clone git@github.com:g4b1nagy/foodms.git
 * cd foodms/
 * virtualenv -p python3 venv
