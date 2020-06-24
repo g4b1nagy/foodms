@@ -35,4 +35,4 @@ class Nutrient(models.Model):
     measure = models.ForeignKey(Measure, related_name='nutrients', on_delete=models.PROTECT)
 
     def __str__(self):
-        return self.name
+        return '{} ({})'.format(self.name, self.measure.symbol)
