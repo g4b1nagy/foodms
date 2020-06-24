@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'nutrients.apps.NutrientsConfig',
+    'foods.apps.FoodsConfig',
 ]
 
 MIDDLEWARE = [
