@@ -29,4 +29,4 @@ class FoodNutrient(models.Model):
         ]
 
     def __str__(self):
-        return '{} {}'.format(self.food.name, self.nutrient.name)
+        return '{} {}'.format(self.food, self.nutrient)
